@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: telco-churn-api
+    env: python
+    plan: starter
+    buildCommand: ""
+    startCommand: ""
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    dockerCommand: ""
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: 1
+      - key: MLFLOW_TRACKING_URI
+        value: file:./mlruns
+    healthCheckPath: /health
+    autoDeploy: true
+    branch: master
+    region: oregon
+    numInstances: 1
+

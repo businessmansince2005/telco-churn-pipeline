@@ -1,0 +1,12 @@
+# Ignore MLflow artifacts
+mlruns/
+mlflow.db
+
+# Ignore datasets
+data/
+scripts/data/
+
+# Ignore Python environment
+.venv/
+__pycache__/
+*.pyc
