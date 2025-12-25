@@ -2,7 +2,7 @@
 
 A production-ready machine learning pipeline for predicting customer churn in telecommunications, featuring automated training, model versioning with MLflow, CI/CD integration, and a deployed REST API.
 
-[![CI](https://github.com/businessmansince2005/mlflow/actions/workflows/train.yml/badge.svg)](https://github.com/businessmansince2005/mlflow/actions/workflows/train.yml)
+[![CI](https://github.com/businessmansince2005/telco-churn-pipeline/actions/workflows/train.yml/badge.svg)](https://github.com/businessmansince2005/telco-churn-pipeline/actions/workflows/train.yml)
 [![Live API](https://img.shields.io/badge/API-Live-brightgreen)](https://mlflow-2.onrender.com)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.127-blue)](https://fastapi.tiangolo.com)
 [![XGBoost](https://img.shields.io/badge/XGBoost-2.1-orange)](https://xgboost.ai)
@@ -74,7 +74,7 @@ This project demonstrates a complete MLOps pipeline for churn prediction:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/businessmansince2005/mlflow.git
+   git clone https://github.com/businessmansince2005/telco-churn-pipeline.git
    cd mlflow
    ```
 
@@ -176,7 +176,7 @@ The project includes automated CI/CD via GitHub Actions:
   4. Run training script
   5. Log results to MLflow
 
-View workflow runs: [GitHub Actions](https://github.com/businessmansince2005/mlflow/actions)
+View workflow runs: [GitHub Actions](https://github.com/businessmansince2005/telco-churn-pipeline/actions)
 
 ## 📊 Model Performance
 
